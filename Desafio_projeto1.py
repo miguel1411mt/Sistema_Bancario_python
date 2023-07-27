@@ -45,7 +45,7 @@ while True:
                 for_int_withdraw = float(user_withdraw)
 
                 if account < for_int_withdraw:
-                    print("\033[1;31m Voçê não tem saldo suficiente para essa quantia solicitada!\033[m")
+                    print("\033[1;31m Você não tem saldo suficiente para essa quantia solicitada!\033[m")
                     break
 
                 if 0 < for_int_withdraw <= 500:
@@ -62,7 +62,7 @@ while True:
                     break
 
                 else:
-                    print("\033[1;31m ERRO: O limite maximo é R$500,00 por saque! \033[m")
+                    print("\033[1;31m ERRO: O limite máximo é R$500,00 por saque! \033[m")
             else:
                 print("\033[1;31m Ops!!, algo deu errado! \033[m")
 
@@ -75,8 +75,8 @@ while True:
 print("")
 print(10*"=", "EXTRATO", 10*"=")
 
-print("DEPOSITOS:")
-print(f"Quantidade de depositos: {score_deposit}")
+print("DEPÓSITOS:")
+print(f"Quantidade de depósitos: {score_deposit}")
 for data in list_deposit:
     print(f"== {data} ==")
 
